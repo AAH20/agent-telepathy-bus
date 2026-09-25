@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-telepathy-bus"
+version = "1.0.0"
+description = "Zero-Token CRDT Shared Memory Mesh for Heterogeneous AI Agent Swarms"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+agent-telepathy-bus = "agent_telepathy_bus.cli:main"
